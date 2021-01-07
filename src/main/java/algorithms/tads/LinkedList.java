@@ -69,4 +69,20 @@ public class LinkedList<T> {
 			removeDuplicates(node.next, elems);
 		}
 	}
+	/*
+	 * Write code to partition a linked list around a value x,
+	 * such that all nodes less than x come before all nodes greater than or equal to x
+	 */
+	/*
+	 * Approach: In one scan fill two list: One with the elements greather than x and other with the complement
+	 * Merge two list
+	 */
+	public void partitionAround(T elem){
+		Node<T> node = head;
+		LinkedList<T> greater = new LinkedList<T>();
+		LinkedList<T> lower = new LinkedList<T>();
+		while(node!=null) {
+			if(node.value.compareTo(elem) > 0 )
+		}
+	}
 }
