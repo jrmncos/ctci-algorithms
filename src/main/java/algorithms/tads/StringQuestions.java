@@ -1,4 +1,4 @@
-package algorithms.questions;
+package algorithms.tads;
 
 import java.util.HashMap;
 
